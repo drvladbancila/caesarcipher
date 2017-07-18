@@ -1,6 +1,5 @@
 # caesarcipher
-Software that encrypts a string using the Caesar cipher.
-The Caesar cipher is one of the easiest encryption techniques. It's a cipher that replaces every letter of the message with a letter some fixed number of positions down the alphabet.
+Software that encrypts a string using the Caesar cipher, one of the easiest encryption techniques. This cipher replaces every letter of a message with a letter some fixed number of positions down the alphabet.
 Example: "hello" -> (key: 5) -> "mjqqt"
 
 ## HOW TO INSTALL
