@@ -1,14 +1,12 @@
 # caesarcipher
-It's a C program that encrypts a string using the Caesar cipher, one of the easiest encryption techniques. This cipher replaces every letter of a message with a letter some fixed number of positions down the alphabet.
+This is a C program that encrypts a string using the Caesar cipher, one of the easiest encryption techniques. This cipher replaces every letter of a message with a letter some fixed number of positions down the alphabet.
 Example: "hello" -> (key: 5) -> "mjqqt"
 
 ## HOW TO INSTALL
-Download the tar.gz archive and type the following commands in a terminal window
-1. `tar xvf caesar-1.0`
-2.  `cd caesar-1.0`
-3.  `./configure`
-4.  `make`
-5.  `make install`
+Clone and compile the source
+1. `git clone https://github.com/drvladbancila/caesarcipher`
+2.  `cd caesarcipher`
+3.  `gcc main.c -o caesarcipher`
 
 ## HOW TO RUN
-Type in the terminal `caesar` and you will be shown the usage of the program
+Type in the terminal `./caesarcipher` in the same folder you compiled the source and you will be shown the usage of the program
